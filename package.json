@@ -1,10 +1,11 @@
 {
- "name": "pack",
+ "name": "pack-lang",
  "version": "1.0.0",
  "description": "A Tree Language for creating package.json npm files",
  "main": "index.js",
  "keywords": "pack",
  "license": "MIT",
+ "repository": "breck7/pack-lang",
  "dependencies": {
   "treeprogram": "^8.3.0"
  }
