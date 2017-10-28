@@ -1,0 +1,11 @@
+{
+ "name": "pack",
+ "version": "1.0.0",
+ "description": "A Tree Language for creating package.json npm files",
+ "main": "index.js",
+ "keywords": "pack",
+ "license": "MIT",
+ "dependencies": {
+  "treeprogram": "^8.3.0"
+ }
+}
