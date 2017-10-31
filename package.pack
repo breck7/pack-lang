@@ -1,5 +1,5 @@
 name pack-lang
-version 1.0.0
+version 1.1.0
 description A Tree Language for creating package.json npm files
 main index.js
 keywords pack
