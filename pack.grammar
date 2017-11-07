@@ -1,26 +1,27 @@
 pack
  @description A Tree Language for creating package.json npm files
- @targetExtension json
  @catchAllKeyword error
+ @compiler json
+ @parser js ./packProgram.js
  @keywords
   term
   nt
 error
- @parseClass ErrorNode
+ @parser js ErrorNode
 term
 nt
 name term
- @parameters any
+ @columns any
 version term
- @parameters version
+ @columns version
 description term
 depVersion term
- @parameters any
+ @columns any
 dependency
- @parameters depVersion
+ @columns depVersion
 dependencies nt
  @catchAllKeyword dependency
 license
- @parameters any
+ @columns any
 repository
- @parameters any
+ @columns any
