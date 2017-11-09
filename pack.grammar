@@ -1,4 +1,4 @@
-pack
+@grammar pack
  @description A Tree Language for creating package.json npm files
  @catchAllKeyword error
  @compiler json
@@ -6,22 +6,22 @@ pack
  @keywords
   term
   nt
-error
+@keyword error
  @parser js ErrorNode
-term
-nt
-name term
+@keyword term
+@keyword nt
+@keyword name term
  @columns any
-version term
+@keyword version term
  @columns version
-description term
-depVersion term
+@keyword description term
+@keyword depVersion term
  @columns any
-dependency
+@keyword dependency
  @columns depVersion
-dependencies nt
+@keyword dependencies nt
  @catchAllKeyword dependency
-license
+@keyword license
  @columns any
-repository
+@keyword repository
  @columns any
