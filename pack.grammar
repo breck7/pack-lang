@@ -6,6 +6,12 @@
  @keywords
   term
   nt
+@wordType any
+ @regex .?
+@wordType depVersion
+ @regex .?
+@wordType version
+ @regex ^[0-9]+\.[0-9]+\.[0-9]+$
 @keyword error
  @parser js ErrorNode
 @keyword term

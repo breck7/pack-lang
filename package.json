@@ -7,6 +7,6 @@
   "license": "MIT",
   "repository": "breck7/pack-lang",
   "dependencies": {
-    "otree": "^12.2.0"
+    "otree": "^13.0.0"
   }
 }
